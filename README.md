@@ -14,11 +14,7 @@ State Management: React Hooks
 Data Persistence: Browser Local Storage
 
 
-Screenshots
-Task Categories
-Adding a Task
-![Adding a Task](Screenshots/Screenshot 2025-01-24 225353.png)
-![deleting a Task](Screenshots/Screenshot 2025-01-24 225440.png)
+
 
 Future Enhancements
 Add due dates and reminders for tasks.
