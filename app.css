@@ -1,17 +1,17 @@
+```css
 .app {
   display: grid;
-  grid-template-rows: 150px auto ; /*Header,main section*/
-
+  grid-template-rows: 150px 1fr; /*Header, main section (1fr for dynamic height)*/
 }
 
-.app_main{
+.app_main {
   display: flex;
   justify-content: space-evenly;
-  padding: 20px 8%;
+  padding: 2rem 8%; /* Using rem units for better scalability */
 }
 
 .task_column {
-  width:33.33%;
-  
+  width: calc(33.33% - 40px); /* Accounting for 2 * 20px margins */
   margin: 20px;
 }
+```
